@@ -1,0 +1,76 @@
+.fast-menu-container {
+    background-image: linear-gradient(to bottom, #b22222,#ff8383 );
+    height: 100vh;
+    width: 20vw;
+}
+
+.icom-fast-menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.icom-fast-menu img {
+    width: 60%;
+    background-repeat: no-repeat;
+    margin-top: 0px;
+    margin-left: 60px;
+}
+.icom-fast-menu h3 {
+    color: #fff;
+    font-size: 1.5rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 600;
+    font-style: italic;
+    padding: 10px;
+    text-align: center;
+    text-shadow: 1px 1px 5px #000;
+    text-decoration: underline;
+}
+
+.items-fast-menu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.details-items-fast-menu {
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+.details-items-fast-menu:hover{
+    background-color: #000;
+    color: #fff;
+}
+
+.details-items-fast-menu img {
+    width: 100%;
+    height: 95px;
+    background-repeat: no-repeat;
+    margin-left: 1%;
+    margin-top: 10px;
+}
+
+.details-items-fast-menu p {
+    color: #f30b0b34;
+    font-size: 1.3rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 600;
+    font-style: italic;
+    padding: 10px;
+    text-align: center;
+    text-shadow: .1px .1px .1px #000;
+}
+
+.details-items-fast-menu:hover p {
+    color: #fff;
+}

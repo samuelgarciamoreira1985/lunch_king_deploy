@@ -1,0 +1,1403 @@
+.container-sales { /* CONTAINER PRINCIPAL - VENDAS */
+    height: 74vh;
+    width: 80vw;
+    overflow-y: scroll;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.container-sales h2 {
+    padding: 10px;
+    color: #000;
+    font-size: 1.5rem;
+    font-family: "Caprasimo", serif;
+    font-weight: bold;
+    text-shadow: 1.5px 1.4px 5px #fff;
+    margin-bottom: 15px;
+}
+/* FORMULÁRIO DE VENDAS */
+.form-register-sales {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 7px;
+}
+/*-----------------DADOS DE ENTRADA-------------------------*/
+.input-initial-sales {
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+    justify-content: center;
+    align-items: center;
+    background-color: #086d9c9f;
+    width: 70vw; /* TAMANHO DA LARGURA PARA OS ELEMENTOS NA TELA */
+    height: 30px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.input-initial-sales label {
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+}
+
+.input-initial-sales span {
+    color: #fff;
+    font-weight: 600;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1.1rem;
+    font-style: italic;
+    text-shadow: .4px .4px 2.5px #000;
+}
+
+.input-initial-sales input {
+    padding: 2px;
+    color: #000;
+    text-shadow: .9px .8px 5px #ffffff9c;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1rem;
+    font-style: italic;
+    border-radius: 6px;
+    border: none;    
+    text-transform: uppercase;
+    height: 20px;
+}
+
+.label-register {
+    margin-top: 6px;
+    position: relative;
+}
+
+.button-search-register-sales {
+    background-color: transparent;
+    border: none;
+    position: absolute;
+    left: 170px;
+    cursor: pointer;
+}
+
+.icon-button-search-command {
+    color: #0579a7;
+    font-size: 1.3rem;
+    
+}
+
+.icon-button-search-command:hover {
+    color: #0579a79f;
+    font-size: 1.2rem;
+}
+
+.list-items-sales { /* UL */
+    display: flex;
+    flex-direction: row;
+}
+
+.list-items-sales li {
+    display: flex;
+    flex-direction: row;
+    gap: 1px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.sub-list-sales {
+    display: flex;
+    flex-direction: row;
+    gap: 4px;
+    padding: 10px;
+}
+
+.sub-list-sales img {
+    width: 50px;
+    height: 70px;
+}
+
+.sub-items-cart-finally {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    align-items: flex-start;
+    justify-items: center;
+}
+
+.sub-items-cart-finally p {
+    color: #ffffff;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 600;
+    font-style: italic;
+    font-size: 1rem;
+    text-shadow: .5px .5px 2px #000;
+}
+
+.btn-search-cep {
+    background-color: transparent;
+    border: none;
+    margin-left: 7px;
+    cursor: pointer;
+    position: relative;
+}
+
+.icon-btn-cep {
+    color: #020202b7;
+    font-size: 1.3rem;
+    margin-right: 6px;
+    position: absolute;
+    top: -17px;
+}
+
+.icon-btn-cep:hover {
+    fill: #4d4d4e;
+}
+
+/*---------------------ITÉNS DA COMANDA-----------------------*/
+.command-items-sales {
+    display: flex;
+    flex-direction: column;
+    background-color: #ffffffd0;
+    width: 70vw; /* TAMANHO DA LARGURA PARA OS ELEMENTOS NA TELA */
+    margin-top: -7px;
+}
+
+.items-command-sales {
+    display: flex;
+    flex-direction: column;
+    background-color: #086d9c9f;
+    width: 70vw; /* TAMANHO DA LARGURA PARA OS ELEMENTOS NA TELA */
+    height: 360px;
+    
+}
+
+.title-commmand-items-sales {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 0px;
+    background-color: #000000c0;
+}
+
+.title-commmand-items-sales p {
+    margin-top: 10px;
+    color: #fff;
+    font-size: 1.1rem;
+    font-style: italic;
+    text-shadow: .9px 1px 2px #000;
+    font-weight: 600;
+}
+
+.icon-items-command-sales {
+    color: #fff;
+    font-size: 1.3rem;
+    margin-right: 6px;
+}
+
+.btnConfirm-product {
+    background-color: #016b07;
+    color: #ddd;
+    font-size: .9rem;
+    width: 140px;
+    height: 27px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-radius: 7px;
+    border: none;
+    padding: 1.5px;
+    margin-top: 3px;
+    font-style: italic;
+    position: relative;
+    text-shadow: .7px .7px 2px #000;
+    cursor: pointer;
+}
+
+.btnConfirm-product:hover {
+    background-color: #016b06ab;
+}
+
+.icon-btnConfirm-product {
+    font-size: 1.1rem;
+    position: absolute;
+    left: 4px;
+    top: 4px;
+}
+/*---------------DADOS DE ENDEREÇO----------------------------*/
+.data-address-sales {
+    display: flex;
+    flex-direction: column;
+    width: 70vw; /* TAMANHO DA LARGURA PARA OS ELEMENTOS NA TELA */
+    margin-top: -7px;
+}
+
+.title-data-address-sales {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 0px;
+    background-color: #000000c0;
+}
+
+.title-data-address-sales p {
+    margin-top: 10px;
+    color: #fff;
+    font-size: 1.1rem;
+    font-style: italic;
+    text-shadow: .9px 1px 2px #000;
+    font-weight: 600;
+}
+
+.icon-address-sales {
+    color: #fff;
+    font-size: 1.3rem;
+    margin-right: 6px;
+}
+
+.address-initial { /* INÍCIO - CEP,LOGRADOURO E NÚMERO */
+    display: flex;
+    flex-direction: row;
+    padding: 15px;
+    background-color: #ffffffd0;
+    height: 45px;
+    justify-content: space-around;
+    background-color: #086d9c9f;
+}
+
+.address-initial label {
+    margin-top: 1px;
+}
+
+.address-initial span {
+    color: #fff;
+    font-weight: 600;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1.1rem;
+    font-style: italic;
+    text-shadow: .4px .4px 2.5px #000;
+}
+
+.address-initial input {
+    padding: 2px;
+    color: #000;
+    text-shadow: .9px .8px 5px #ffffff9c;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1rem;
+    font-style: italic;
+    border-radius: 6px;
+    border: none;    
+    text-transform: uppercase;
+    height: 20px;
+}
+
+.address-finally { /* FIM - BAIRRO,CIDADE,ESTADO,UF E REGIÃO */
+    display: flex;
+    flex-direction: row;
+    padding: 8px;
+    background-color: #ffffffd0;
+    height: 60px;
+    justify-content: center;
+    align-items: center;
+    background-color: #086d9c9f;
+}
+
+.address-finally label {
+     margin-top: -10px;
+     margin-left: 35px;
+}
+
+.address-finally span {
+    color: #fff;
+    font-weight: 600;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1.1rem;
+    font-style: italic;
+    text-shadow: .4px .4px 2.5px #000;
+}
+
+.address-finally input {
+    padding: 2px;
+    color: #000;
+    text-shadow: .9px .8px 5px #ffffff9c;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1rem;
+    font-style: italic;
+    border-radius: 6px;
+    border: none;    
+    text-transform: uppercase;
+    height: 20px;
+}
+/* DADOS DE FATURAMENTO */
+.data-invoicing-sales {
+    display: flex;
+    flex-direction: column;
+    width: 70vw; /* TAMANHO DA LARGURA PARA OS ELEMENTOS NA TELA */
+    margin-top: -7px;       
+    margin-bottom: 10px;
+}
+
+.title-data-invoicing-sales {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 0px;
+    background-color: #000000c0;
+}
+
+.title-data-invoicing-sales p {
+    margin-top: 10px;
+    color: #fff;
+    font-size: 1.1rem;
+    font-style: italic;
+    text-shadow: .9px 1px 2px #000;
+    font-weight: 600;
+}
+
+.icon-invoicing-sales {
+    color: #fff;
+    font-size: 1.3rem;
+    margin-right: 6px;
+} /* ---------------------- */
+
+.data-payment-sales {
+    display: flex;
+    flex-direction: column;
+    gap: 1px;
+    position: relative;
+}
+
+.click-type-payment {
+    background-color: #000000a1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.hide-card-one {
+    display: flex;
+    flex-direction: row;
+    margin-left: -15px;
+}
+
+.container-card-type {
+    display: flex;
+    flex-direction: column;
+}
+
+.hide-click-type-payment-money { /* DIV ESCONDIDA DE PAGAMENTO - MONEY*/
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    padding: 10px;
+}
+
+.hide-click-type-payment-money span {
+    color: #fff;
+    font-weight: 300;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1.1rem;
+    font-style: italic;
+    text-shadow: .4px .4px 2.5px #000;
+}
+
+.hide-click-type-payment-money input {
+    padding: 2px;
+    color: #000;
+    text-shadow: .9px .8px 5px #ffffff9c;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1rem;
+    font-style: italic;
+    border-radius: 6px;
+    border: none;    
+    text-transform: uppercase;
+    height: 20px;
+}
+
+.hide-click-type-payment-money label {
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    margin-top: 10px;
+} /* FIM - DIV ESCONDIDA DE PAGAMENTO - MONEY*/
+
+.hide-click-type-payment-card { /* DIV ESCONDIDA DE PAGAMENTO - CARD*/
+    display: flex;
+    flex-direction: row;
+    width: 70vw;
+    justify-content: flex-start;
+    gap: 40px;
+    margin-top: 12px;
+    margin-left: 40px;
+    padding: 10px;
+    position: relative;
+}
+
+.flags-card {
+    position: absolute;
+    top: 50px;
+    margin-left: 9px;
+    border-radius: 0px 0px 10px 10px;
+}
+
+.flags-card input {
+    opacity: 0;
+}
+
+.icon-flags {
+    color: #ffffff;
+    font-size: 2.5rem;
+    cursor: pointer;
+}
+
+.icon-flags:hover {
+    color: #7076f4;
+}
+
+.hide-card-radio {
+    display: flex;
+    flex-direction: row;
+    padding: 8px;
+    margin-top: -6px;
+}
+
+.hide-card-radio span {
+    color: #fff;
+    align-self: flex-end;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1.1rem;
+    text-shadow: .3px .3px 3px #000;
+}
+
+.icon-hide-type-card {
+    color: #ffffff;
+    font-size: 2rem;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.icon-hide-type-card:hover {
+    color: #7076f4;
+}
+
+.hide-card-radio input {
+    opacity: 0;
+}
+
+.hide-card-initial {
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+    margin-left: -15px;
+    height: 25px;
+}
+
+.hide-card-initial-span {
+    display: flex;
+    flex-direction: row;
+    height: 20px;
+    gap: 7px;
+}
+
+.hide-card-initial-span span{
+    color: #fff;
+    align-self: flex-end;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1.1rem;
+    text-shadow: .3px .3px 3px #000;
+}
+
+.hide-card-initial-span input {
+    padding: 2px;
+    color: #000;
+    text-shadow: .9px .8px 5px #ffffff9c;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1rem;
+    font-style: italic;
+    border-radius: 6px;
+    border: none;    
+    text-transform: uppercase;
+    height: 20px;
+}
+
+.hide-card-finally {
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    left: 299px;
+    top: 40px;
+    width: 48vw;
+    gap: 30px;
+}
+
+.hide-card-finally-span {
+    display: flex;
+    flex-direction: row;
+    gap: 6px;
+}
+
+.hide-card-finally-span span {
+    color: #fff;
+    align-self: flex-end;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1.1rem;
+    text-shadow: .3px .3px 3px #000;
+}
+
+.hide-card-finally-span input {
+    padding: 2px;
+    color: #000;
+    text-shadow: .9px .8px 5px #ffffff9c;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1rem;
+    font-style: italic;
+    border-radius: 6px;
+    border: none;    
+    text-transform: uppercase;
+    height: 20px;
+}
+/* FIM - DIV ESCONDIDA DE PAGAMENTO - CARD */
+
+.data-payment-sales label span {
+    color: #fff;
+    align-self: flex-end;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1.1rem;
+    text-shadow: .3px .3px 3px #000;
+}
+
+.radio-payment {
+    opacity: 0;
+}
+
+.icon-money-payment {
+    color: #ddd;
+    font-size: 2.5rem;
+    margin-right: 6px;
+    cursor: pointer;
+}
+
+.icon-money-payment:hover {
+    color: #7076f4;
+}
+
+.icon-card-payment {
+    color: #feffff;
+    font-size: 2.5rem;
+    margin-right: 6px;
+    cursor: pointer;
+}
+
+.icon-card-payment:hover {
+    color: #7076f4;
+}
+
+.icon-card-visa {
+    color: #ffffff;
+    font-size: 2.5rem;
+    margin-right: 6px;
+    position: absolute;
+    right: 200px;
+}
+
+.icon-card-mastercard {
+    color: #ffffff;
+    font-size: 2.5rem;
+    margin-right: 6px;
+    position: absolute;
+    right: 150px;
+}
+
+.icon-card-nubank {
+    color: #ffffff;
+    font-size: 2.5rem;
+    margin-right: 6px;
+    position: absolute;
+    right: 100px;
+}
+
+.icon-card-discover {
+    color: #ffffff;
+    font-size: 2.5rem;
+    margin-right: 6px;
+    position: absolute;
+    right: 50px;
+}
+
+.icon-pix-payment {
+    color: #ddd;
+    font-size: 2.5rem;
+    margin-right: 6px;
+    cursor: pointer;
+}
+
+.icon-pix-payment:hover {
+    color: #7076f4;
+}
+/* DIV ESCONDIDA - PAGAMENTO - PIX */
+.hide-click-type-payment-pix {
+    display: flex;
+    flex-direction: row;
+    padding: 17px;
+    margin-bottom: -16px;
+}
+
+.fields-pix {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin-left: 50px;
+}
+
+.fields-pix label {
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+}
+
+.fields-pix label span {
+    color: #fff;
+    font-weight: 600;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1.1rem;
+    font-style: italic;
+    text-shadow: .4px .4px 2.5px #000;
+}
+
+.fields-pix label input {
+    padding: 2px;
+    color: #000;
+    text-shadow: .9px .8px 5px #ffffff9c;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1rem;
+    font-style: italic;
+    border-radius: 6px;
+    border: none;    
+    text-transform: uppercase;
+    height: 20px;
+}
+/*----------DADOS FINAIS-------------*/
+
+.data-finally-sales {
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+    justify-content: center;
+    align-items: center;
+    background-color: #086d9c9f;
+    width: 70vw; /* TAMANHO DA LARGURA PARA OS ELEMENTOS NA TELA */
+    height: 40px;
+    border-radius: 0px 0px 10px 10px;
+    margin-bottom: 10px;
+    margin-top: -17px;
+    padding-top: 3px;
+    
+}
+
+.data-finally-sales label {
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+}
+
+.data-finally-sales span {
+    color: #fff;
+    font-weight: 600;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1.1rem;
+    font-style: italic;
+    text-shadow: .4px .4px 2.5px #000;
+}
+
+.data-finally-sales input {
+    padding: 2px;
+    color: #000;
+    text-shadow: .9px .8px 5px #ffffff9c;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1rem;
+    font-style: italic;
+    border-radius: 6px;
+    border: none;    
+    text-transform: uppercase;
+    height: 20px;
+}
+
+.data-finally-sales button {
+    width: 152px;
+    border-radius: 7px;
+    background-color: #022b61b4;
+    color: #ddd;
+    font-weight: 600;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 3.2px;
+    border: none;
+    text-shadow: .5px .5px 2px black;
+    cursor: pointer;
+}
+
+.data-finally-sales button:hover {
+    color: #dddddde1;
+}
+
+/* BOTÕES DE AÇÃO */
+.group-buttons-action-sales {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.group-buttons-action-sales button {
+    width: 200px;
+    height: 35px;
+    border-radius: 8px;
+    border: none;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1.1rem;
+    font-weight: 600;
+    font-style: italic;
+    cursor: pointer;
+    background-color: #0044ffcb;
+    color: #fff;
+    text-shadow: 2px 1.5px 3px #000;
+}
+
+.group-buttons-action-sales button:hover {
+    background-color: #0044ff96;
+}
+
+.icon-button-action-sales {
+    font-size: 1.4rem;
+    color: #000;
+    margin-right: 4px;
+}
+/* GESTÃO DE VENDAS - LISTA*/
+
+.management-list-sales {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow-y: auto;
+    width: 72vw;
+    height: 57vh;
+}
+
+.icon-list-pix {
+    font-size: 3rem;
+    margin-top: -8px;
+}
+
+.general-management-list-sales { /* UL */
+    list-style-type: none;
+}
+
+.group-initial-sales-management { /* REGISTRO,CONSUMO E MESA */
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    gap: 80px;
+    margin: 10px;
+    justify-content: center;
+    background-color: #086d9ce8;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.group-initial-sales-management p {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1rem;
+    font-style: italic;
+    color: #fff;
+    font-weight: 600;
+    text-shadow: 1px 1.5px 5px #000;
+}
+
+.group-items-cart-management-sales {
+    display: flex;
+    flex-direction: row;
+    width: 69.3vw;
+    max-height: 50vh;
+    margin: 10px;
+    margin-top: -10px;
+    background-color: rgb(228, 210, 152);
+}
+.subgroup-items-cart-management-sale { /* GRUPO - FOTO E ITEMS MÉDIOS */
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+    flex-wrap: wrap;
+    padding: 10px;
+    background-color: rgb(228, 210, 152);
+    justify-content: flex-start;
+}
+
+.subgroup-items-cart-management-sale img {
+    width: 70px;
+    height: 70px;
+}
+
+.items-cart-medium-management-sales {
+    display: flex;
+    flex-direction: column;
+    gap: 1px;
+    justify-content: center;
+}
+
+.items-cart-medium-management-sales p {
+    color: #000;
+    text-shadow: .5px .5px 4px #fff;
+    font-weight: 600;
+    font-size: 1rem;
+    font-style: italic;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.group-address-management-sales { /* DADOS DE ENDEREÇO */
+    display: flex;
+    flex-direction: column;
+}
+
+.address-title-management {
+    background-color: #0610248a;
+    margin: 10px;
+    margin-top: -10px;
+}
+
+.address-title-management P {
+    text-align: center;
+    color: #fff;
+    font-weight: 600;
+    font-size: 1.1rem;
+    font-style: italic;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 5px;
+    text-shadow: .4px .4px 2px #000;
+}
+
+.icon-address-management {
+    margin-right: 5px;
+    font-size: 1.2rem;
+    background-color: transparent;
+    color: #ffffff;
+}
+
+.address-data-management {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(228, 210, 152);
+    margin: 10px;
+    margin-top: -10px;
+}
+
+.address-data-manag-initial { /* CEP,LOGRADOURO E NÚMERO */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 80px;
+    padding: 5px;
+}
+
+.address-data-manag-initial p {
+    color: #000;
+    text-shadow: .2px .2px 2px #fff;
+    font-weight: 600;
+    font-size: 1rem;
+    font-style: italic;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.address-data-manag-medium { /* BAIRRO,CIDADE,ESTADO,UF E REGIÃO */
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    justify-content: center;
+}
+
+.address-data-manag-medium p {
+    color: #000;
+    text-shadow: .2px .2px 2px #fff;
+    font-weight: 600;
+    font-size: 1rem;
+    font-style: italic;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/* DADOS DE FATURAMENTO */
+.group-invoicing-management-sales {
+    display: flex;
+    flex-direction: column;
+}
+
+.invoicing-title-management {
+    background-color: #0610248a;
+    margin: 10px;
+    margin-top: -10px;
+}
+
+.invoicing-title-management p {
+    text-align: center;
+    color: #fff;
+    font-weight: 600;
+    font-size: 1.1rem;
+    font-style: italic;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 5px;
+    text-shadow: .4px .4px 2px #000;
+}
+
+.icon-title-management {
+    font-size: 1.2rem;
+    background-color: transparent;
+    color: #ffffff;
+}
+
+.invoicing-initial-management-sales {
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+    background-color: rgb(228, 210, 152);
+    margin-top: -10px;
+    justify-content: center;
+    gap: 50px;
+    padding: 8px;
+}
+
+.invoicing-initial-management-sales p {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.1rem;
+    color: #000;
+    font-weight: 600;
+    font-style: italic;
+    text-shadow: .2px .2px 2px #fff;
+}
+
+.money-sales { /* DINHEIRO */
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+    margin-top: -10px;
+    background-color: rgb(228, 210, 152);
+    gap: 50px;
+    justify-content: center;
+    border-radius: 0px 0px 0px 0px;
+}
+
+.money-sales p {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.1rem;
+    color: #000;
+    font-weight: 600;
+    font-style: italic;
+    text-shadow: .2px .2px 2px #fff;
+    padding: 7px;
+}
+
+.icon-money-input {
+    color: rgb(1, 119, 1);
+    font-size: 1.5rem;
+}
+
+.icon-money-change {
+    color: rgb(163, 147, 1);
+    background-color: rgb(228, 210, 152);
+    font-size: 1.5rem;
+}
+
+.card-sales { /* CARTÕES */
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    margin-top: -10px;
+    background-color: rgb(228, 210, 152);
+    gap: 10px;
+    padding: 7px;
+    border-radius: 0px 0px 0px 0px;
+}
+
+.card-sales-initial {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 40px;
+    margin-top: -10px;
+}
+
+.card-sales-finally {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 50px;
+}
+
+.card-sales-initial p {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.1rem;
+    color: #000;
+    font-weight: 600;
+    font-style: italic;
+    text-shadow: .2px .2px 2px #fff;
+    padding: 7px;
+    margin-top: -5pxpx;
+}
+
+.card-sales-finally p {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.1rem;
+    color: #000;
+    font-weight: 600;
+    font-style: italic;
+    text-shadow: .2px .2px 2px #fff;
+    padding: 7px;
+    margin-top: -20px;
+    margin-bottom: -7px;
+}
+
+.pix-sales { /* PIX */
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+    margin-top: -10px;
+    background-color: rgb(228, 210, 152);
+    gap: 40px;
+    padding: 7px;
+    justify-content: center;
+    padding-bottom: 12px;
+    border-radius: 0px 0px 0px 0px;
+}
+
+.pix-sales-data {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 12px;
+}
+
+.pix-sales img {
+    width: 75px;
+    height: 70px;
+}
+
+.pix-sales-data p {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.1rem;
+    color: #000;
+    font-weight: 600;
+    font-style: italic;
+    text-shadow: .2px .2px 2px #fff;
+    padding: 7px;
+    margin-top: -20px;
+    margin-bottom: -7px;
+}
+
+/* DADOS DE SISTEMA */
+.group-data-management-finally {
+    display: flex;
+    flex-direction: column;
+}
+
+.finally-title-management-sales {
+    background-color: #0610248a;
+    margin: 10px;
+    margin-top: -10px;
+}
+
+.finally-title-management-sales p {
+    text-align: center;
+    color: #fff;
+    font-weight: 600;
+    font-size: 1.1rem;
+    font-style: italic;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 5px;
+    text-shadow: .4px .4px 2px #000;
+}
+
+.icon-title-management-finally {
+    font-size: 1.2rem;
+    background-color: transparent;
+    color: #ffffff;
+    margin-right: 4px;
+}
+
+.finally-data-sales {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 40px;
+    margin: 10px;
+    margin-top: -10px;
+    background-color: rgb(228, 210, 152);
+    gap: 40px;
+    padding: 7px;
+    justify-content: center;
+    padding-bottom: 12px;
+    border-radius: 0px 0px 10px 10px;
+    position: relative;
+}
+
+.finally-sales-date {
+    display: flex;
+    flex-direction: row;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.1rem;
+    color: #000;
+    font-weight: 600;
+    font-style: italic;
+    text-shadow: .2px .2px 2px #fff;
+    padding: 7px;
+    margin-top: -8px;
+    margin-bottom: -7px;
+    gap: 6px;
+}
+
+.finally-sales-date p {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.1rem;
+    color: #000;
+    font-weight: 600;
+    font-style: italic;
+    text-shadow: .2px .2px 2px #fff;
+}
+
+.finally-sales-hour {
+    display: flex;
+    flex-direction: row;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.1rem;
+    color: #000;
+    font-weight: 600;
+    font-style: italic;
+    text-shadow: .2px .2px 2px #fff;
+    padding: 7px;
+    margin-top: -8px;
+    margin-bottom: -7px;
+    gap: 6px;
+}
+
+.finally-sales-hour p {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.1rem;
+    color: #000;
+    font-weight: 600;
+    font-style: italic;
+    text-shadow: .2px .2px 2px #fff;
+}
+
+.finally-sales-status {
+    display: flex;
+    flex-direction: row;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.1rem;
+    color: #000;
+    font-weight: 600;
+    font-style: italic;
+    text-shadow: .2px .2px 2px #fff;
+    padding: 7px;
+    margin-top: -8px;
+    margin-bottom: -7px;
+    gap: 6px;
+}
+
+.finally-sales-status p {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.1rem;
+    color: #000;
+    font-weight: 600;
+    font-style: italic;
+    text-shadow: .2px .2px 2px #fff;
+}
+
+.button-del-finally-sales {
+    color: #fff;
+    background-color: rgba(216, 5, 5, 0.678);
+    border: none;
+    border-radius: 6px;
+    width: 100px;
+    height: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1rem;
+    text-shadow: .5px .5px 1px #000;
+    cursor: pointer;
+    position: absolute;
+    right: 30px;
+    top: 4.5px;
+}
+
+.button-del-finally-sales:hover {
+    background-color: #d805057c;
+}
+/*-------------MODAL - NOTA FISCAL DE VENDA---------*/
+#modal-rel-sales { /* ID DO COMPONENTE MODAL */
+    width: 39vw;
+    height: 95vh;
+    align-self: center;
+    justify-self: center;
+    border-radius: 10px;
+    background-color: green;
+}
+
+.container-modal { /*CONTAINER PRINCIPAL DO MODAL*/
+    display: flex;
+    flex-direction: column;
+}
+
+.title-modal-rel { /* ELEMENTOS GERIAS DO TITULO */
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+}
+
+.title-modal-rel img { /* LOGOTIPO DA EMPRESA - TÍTULO */
+    width: 100px;
+    height: 80px;
+    background-color: #000;
+    padding: 8px;
+    border-radius: 6px;
+}
+
+.data-title-modal-rel { /* DADOS ESCRITOS DO TÍTULO */
+    display: flex;
+    flex-direction: column;
+}
+
+.data-title-modal-rel p {
+    font-size: .81rem;
+    color: #000;
+    padding: 2px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    
+} /**************************************************************/
+
+.data-value-modal-rel { /* DADOS DE VALORES */
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+}
+
+.data-value-modal-rel p {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.table-rel {
+    border: none;
+    background-color: transparent;
+}
+
+.table-rel tr:nth-child(even) {
+    background-color: transparent;
+}
+
+.table-rel th {
+    background-color: transparent;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border-width: 0;
+    border-bottom: 1px solid #020202;
+}
+
+.table-rel td {
+    background-color: transparent;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border: none;
+    height: 20px;
+    padding: 1px 10px;
+    text-align: justify;
+}
+
+.list-modal-finally {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+}
+
+.item-ini {
+    display: flex;
+    flex-direction: column;
+}
+
+.item-ini li {
+    display: flex;
+    flex-direction: row;
+}
+
+.item-ini li p {
+    font-weight: 500;
+}
+
+.item-fin {
+    display: flex;
+    flex-direction: row;
+    margin-top: 3px;
+}
+
+.item-fin li p {
+    font-weight: 500;
+}
+
+.modal-list-dataAdd {
+    display: flex;
+    flex-direction: column;
+    margin-top: 5px;
+    align-self: center;
+}
+
+.modal-list-dataAdd p {
+    align-self: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1.1rem;
+}
+
+.modal-list-dataQrCode {
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+    margin-top: 20px;
+}
+
+.modal-sublist-dataQrCode {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.modal-proc {
+    display: flex;
+    flex-direction: column;
+}
+
+.modal-list-fin {
+    display: flex;
+    flex-direction: column;
+    margin-top: 7px;
+}
+
+.modal-list-fin p {
+    font-weight: 500;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.1rem;
+}
+
+.modal-btn {
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+    margin-top: 12px;
+    justify-content: center;
+}
+
+.modal-btn button {
+    height: 27px;
+    width: 90px;
+    border-radius: 7px;
+    border: none;
+    background-color: rgba(50, 133, 172, 0.966);
+    color: #ffffff;
+    font-weight: 600;
+    font-size: .9rem;
+    text-shadow: .2px .2px 3px black;
+    cursor: pointer;
+}
+
+.modal-btn button:hover {
+    background-color: #3285aca2;
+}
+

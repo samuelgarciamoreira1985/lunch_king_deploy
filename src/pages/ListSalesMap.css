@@ -1,0 +1,451 @@
+.list-container-sales { /* CONTAINER PRINCIPAL */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow-y: auto;
+    width: 80vw;
+    height: 74vh;
+}
+
+.list-container-sales h2 {
+    color: #000;
+    padding: 10px;
+    font-size: 1.5rem;
+    font-family: "Caprasimo", serif;
+    font-weight: bold;
+    text-shadow: 1.5px 1.4px 5px #fff;
+}
+/*------------------------------------------------------------------*/
+
+/* LISTA DE VENDAS */
+.general-list-sales { /* UL */
+    list-style-type: none;
+}
+
+.item-list-sale { /* LI */
+
+}
+
+.group-initial-sales { /* REGISTRO,CONSUMO E MESA */
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    gap: 80px;
+    margin: 10px;
+    justify-content: center;
+    background-color: #000000c7;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.group-initial-sales p {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1rem;
+    font-style: italic;
+    color: #fff;
+    font-weight: 600;
+    text-shadow: 1px 1.5px 5px #000;
+}
+
+.group-items-cart-sale {
+    display: flex;
+    flex-direction: row;
+    width: 69.3vw;
+    max-height: 50vh;
+    margin: 10px;
+    margin-top: -10px;
+    background-color: rgb(228, 210, 152);
+}
+
+.subgroup-items-cart-sale { /* GRUPO - FOTO E ITEMS MÉDIOS */
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+    flex-wrap: wrap;
+    padding: 10px;
+    background-color: rgb(228, 210, 152);
+    justify-content: flex-start;
+}
+
+.subgroup-items-cart-sale img {
+    width: 70px;
+    height: 70px;
+}
+
+.items-cart-medium-sale {
+    display: flex;
+    flex-direction: column;
+    gap: 1px;
+    justify-content: center;
+}
+
+.items-cart-medium-sale p {
+    color: #000;
+    text-shadow: .5px .5px 4px #fff;
+    font-weight: 600;
+    font-size: 1rem;
+    font-style: italic;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+/*-----------------------------------------------------------------------*/
+/* ---------------DADOS DE ENDEREÇO---------------------------------- */
+.group-address-sale {
+    display: flex;
+    flex-direction: column;
+}
+
+.address-title {
+    background-color: #0000005e;
+    margin: 10px;
+    margin-top: -10px;
+}
+
+.address-title p {
+    text-align: center;
+    color: #fff;
+    font-weight: 600;
+    font-size: 1.1rem;
+    font-style: italic;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 5px;
+    text-shadow: .4px .4px 2px #000;
+}
+
+.address-data {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(228, 210, 152);
+    margin: 10px;
+    margin-top: -10px;
+}
+
+.address-data-initial { /* CEP,LOGRADOURO E NÚMERO */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 80px;
+    padding: 5px;
+}
+
+.address-data-initial p {
+    color: #000;
+    text-shadow: .2px .2px 2px #fff;
+    font-weight: 600;
+    font-size: 1rem;
+    font-style: italic;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.address-data-medium {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    justify-content: center;
+}
+
+.address-data-medium p {
+    color: #000;
+    text-shadow: .2px .2px 2px #fff;
+    font-weight: 600;
+    font-size: 1rem;
+    font-style: italic;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.icon-address {
+    font-size: 1.2rem;
+    background-color: transparent;
+    color: #ffffff;
+}
+/**-----------------------------------------------------------
+/* ----------------DADOS DE FATURAMENTO--------------------- */
+.group-invoicing-sale {
+    display: flex;
+    flex-direction: column;
+}
+
+.invoicing-title {
+    background-color: #0000005e;
+    margin: 10px;
+    margin-top: -10px;
+}
+
+.invoicing-title p {
+    text-align: center;
+    color: #fff;
+    font-weight: 600;
+    font-size: 1.1rem;
+    font-style: italic;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 5px;
+    text-shadow: .4px .4px 2px #000;
+}
+
+.invoicing-initial {
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+    background-color: rgb(228, 210, 152);
+    margin-top: -10px;
+    justify-content: center;
+    gap: 50px;
+    padding: 8px;
+}
+
+.invoicing-initial p {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.1rem;
+    color: #000;
+    font-weight: 600;
+    font-style: italic;
+    text-shadow: .2px .2px 2px #fff;
+}
+
+.money-sales { /* DINHEIRO */
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+    margin-top: -10px;
+    background-color: rgb(228, 210, 152);
+    gap: 50px;
+    justify-content: center;
+    border-radius: 0px 0px 10px 10px;
+}
+
+.money-sales p {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.1rem;
+    color: #000;
+    font-weight: 600;
+    font-style: italic;
+    text-shadow: .2px .2px 2px #fff;
+    padding: 7px;
+}
+
+.icon-money-input {
+    color: rgb(1, 119, 1);
+    font-size: 1.5rem;
+}
+
+.icon-money-change {
+    color: rgb(163, 147, 1);
+    background-color: rgb(228, 210, 152);
+    font-size: 1.5rem;
+}
+
+.card-sales { /* CARTÕES */
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    margin-top: -10px;
+    background-color: rgb(228, 210, 152);
+    gap: 10px;
+    padding: 7px;
+    border-radius: 0px 0px 10px 10px;
+}
+
+.card-sales-initial {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 40px;
+    margin-top: -10px;
+}
+
+.card-sales-finally {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 50px;
+}
+
+.card-sales-initial p {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.1rem;
+    color: #000;
+    font-weight: 600;
+    font-style: italic;
+    text-shadow: .2px .2px 2px #fff;
+    padding: 7px;
+    margin-top: -5pxpx;
+}
+
+.card-sales-finally p {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.1rem;
+    color: #000;
+    font-weight: 600;
+    font-style: italic;
+    text-shadow: .2px .2px 2px #fff;
+    padding: 7px;
+    margin-top: -20px;
+    margin-bottom: -7px;
+}
+
+.pix-sales { /* PIX */
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+    margin-top: -10px;
+    background-color: rgb(228, 210, 152);
+    gap: 40px;
+    padding: 7px;
+    justify-content: center;
+    padding-bottom: 12px;
+    border-radius: 0px 0px 10px 10px;
+}
+
+.pix-sales p {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.1rem;
+    color: #000;
+    font-weight: 600;
+    font-style: italic;
+    text-shadow: .2px .2px 2px #fff;
+    padding: 7px;
+    margin-top: -10px;
+    margin-bottom: -7px;
+    position: relative;
+}
+
+.icon-qrcode-pix {
+    color: #000;
+    font-size: 1.4rem;
+    margin-right: 10px;
+    position: absolute;
+    left: -20px;
+}
+
+.pix-sales-data {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 12px;
+}
+
+.pix-sales img {
+    width: 75px;
+    height: 70px;
+}
+
+.pix-sales-data p {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.1rem;
+    color: #000;
+    font-weight: 600;
+    font-style: italic;
+    text-shadow: .2px .2px 2px #fff;
+    padding: 7px;
+    margin-top: -20px;
+    margin-bottom: -7px;
+}
+/* DADOS FINAIS */
+.list-sales-finally {
+    display: flex;
+    flex-direction: column;
+}
+
+.list-finally-title {
+    background-color: #0000005e;
+    margin: 10px;
+    margin-top: -10px;
+    width: 69.3vw;
+}
+
+.list-finally-title p {
+    text-align: center;
+    color: #fff;
+    font-weight: 600;
+    font-size: 1.1rem;
+    font-style: italic;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 5px;
+    text-shadow: .4px .4px 2px #000;
+}
+
+.finally-data-sales-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 40px;
+    margin: 10px;
+    margin-top: -10px;
+    background-color: rgb(228, 210, 152);
+    gap: 40px;
+    padding: 7px;
+    justify-content: center;
+    padding-bottom: 12px;
+    border-radius: 0px 0px 10px 10px;
+    position: relative;
+}
+
+.finally-sales-date-list {
+    display: flex;
+    flex-direction: row;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.1rem;
+    color: #000;
+    font-weight: 600;
+    font-style: italic;
+    text-shadow: .2px .2px 2px #fff;
+    padding: 7px;
+    margin-top: -8px;
+    margin-bottom: -7px;
+    gap: 6px;
+}
+.finally-sales-date-list p {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.1rem;
+    color: #000;
+    font-weight: 600;
+    font-style: italic;
+    text-shadow: .2px .2px 2px #fff;
+}
+
+.finally-sales-hour-list {
+    display: flex;
+    flex-direction: row;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.1rem;
+    color: #000;
+    font-weight: 600;
+    font-style: italic;
+    text-shadow: .2px .2px 2px #fff;
+    padding: 7px;
+    margin-top: -8px;
+    margin-bottom: -7px;
+    gap: 6px;
+}
+
+.finally-sales-hour-list p {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.1rem;
+    color: #000;
+    font-weight: 600;
+    font-style: italic;
+    text-shadow: .2px .2px 2px #fff;
+}
+
+.finally-sales-status-list {
+    display: flex;
+    flex-direction: row;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.1rem;
+    color: #000;
+    font-weight: 600;
+    font-style: italic;
+    text-shadow: .2px .2px 2px #fff;
+    padding: 7px;
+    margin-top: -8px;
+    margin-bottom: -7px;
+    gap: 6px;
+}
+
+.finally-sales-status-list p {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.1rem;
+    color: #000;
+    font-weight: 600;
+    font-style: italic;
+    text-shadow: .2px .2px 2px #fff;
+}

@@ -1,0 +1,21 @@
+.home-container {
+    background-image: linear-gradient(to right, #b22222,#ff8383 );
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    width: 80vw;
+}
+
+.img-system-home {
+    position: fixed;
+    top: 50px;
+    width: 400px;
+    height: 300px;
+    padding: 10px;
+    margin-top: 10%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}

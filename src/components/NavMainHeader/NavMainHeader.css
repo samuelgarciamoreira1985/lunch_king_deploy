@@ -1,0 +1,39 @@
+.nav-main-container {
+    background-image: linear-gradient(to right, #b22222,#ff8383 );
+    padding: 10px;
+    height: 11vh;
+}
+
+.nav-details {
+    display: flex;
+    flex-direction: row;
+    margin-left: 40%;
+    padding: 5px;
+}
+
+.nav-main-container a {
+    width: 200px;
+    padding: 10px;
+    margin-left: 3px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.4rem;
+    font-weight: 600;
+    text-shadow: .9px .8px 5px #000;
+    border: 1px solid black;
+    background-image: linear-gradient(to top, #b22222,#ff8383 );
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.nav-main-container a:hover {
+    color: #e2e2e2;
+    cursor: pointer;
+}
+
+#first-nav {
+    border-radius: 10px 0px 0px 10px; 
+}
+
+#last-nav {
+    border-radius: 0px 10px 10px 0px; 
+}

@@ -1,0 +1,83 @@
+.main-header-container {
+    background-image: linear-gradient(to right, #b22222,#ff8383 );
+    width: 80vw;
+    height: 14vh;
+    display: flex;
+    flex-direction: row;
+}
+
+.icon-header img {
+    width: 100px;
+    height: 100px;
+    padding: 10px;
+    margin: 10px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.form-inputs-search {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    gap: 10px;
+    margin-left: 200px;
+    margin-top: -10px;
+    position: fixed;
+    top: 0;
+    right: 0;
+}
+
+.form-inputs-search fieldset { /* group */
+  border: 2px solid rgb(255, 255, 255);
+  border-radius: 20px;
+  padding: 10px;
+  margin: 10px;
+  background-color: #00000000;
+  font-family: sans-serif;
+}
+
+.form-inputs-search fieldset legend { /* legenda - texto */
+    color: #fff;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: italic;
+    font-size: 1.2rem;
+    text-shadow: .9px .8px 5px #000;
+}
+
+#id-search-options { /* select */
+    width: 250px;
+    height: 30px;
+    border-radius: 10px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: .9rem;
+    font-weight: 600;
+}
+
+.form-inputs-search input {
+    width: 400px;
+    height: 30px;
+    border-radius: 10px 0px 0px 10px;
+    margin: 0px 0px 2px 10px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: .9rem;
+    font-weight: bolder;
+    text-transform: uppercase;
+}
+
+#id-btn-buscar {
+    width:40px;
+    height: 35px;
+    border-radius: 0px 10px 10px 0px;
+    margin: 0px 0px 2px 0px;
+    background-color: #ff8383;
+    cursor: pointer;
+    border: none;
+}
+
+.icon-search {
+    font-size: 1.5rem;
+    color: #000;
+}

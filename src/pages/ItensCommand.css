@@ -1,0 +1,86 @@
+.general-list-itens-command {
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    gap: 12px;
+    background-color: #ecd4ad;
+    padding: 10px;
+    border-radius: 0px 0px 10px 10px;
+}
+
+.photo-product-item-command {
+    border-radius: 10px 10px 0px 0px;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+}
+
+.item-list-command {
+    display: flex;
+    flex-direction: row;
+    /*border-bottom: 1px dashed black;*/
+    padding: 1px;
+}
+
+.item-list-command img {
+    width: 70px;
+    height: 80px;
+    background-size: contain;
+    background-position: center;
+    padding: 5px;
+    margin-top: -10px;
+}
+
+.item-list-command-secound {
+    display: flex;
+    flex-direction: column;
+}
+
+.item-list-command-secound button {
+    width: 100px;
+    border-radius: 7px;
+    background-color: rgba(0, 85, 196, 0.699);
+    color: #ddd;
+    font-weight: 600;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 5px;
+    border: none;
+    text-shadow: .5px .5px 2px black;
+    cursor: pointer;
+}
+
+.item-list-command-secound button:hover {
+    color: #dddddde1;
+}
+
+.item-list-command-secound p {
+    font-weight: 600;
+    font-style: italic;
+    text-shadow: .5px .4px 1px #ddd;
+}
+
+.buttons-counter {
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+}
+
+.btn-counter {
+    display: flex;
+    flex-direction: row;
+    gap: 3px;
+    margin-left: 10px;
+}
+
+.btn-counter span {
+    font-weight: 600;
+    font-size: 1rem;
+    font-family: 'Times New Roman', Times, serif;
+    color: #000;
+    text-shadow: .5px .5px 3px #ddd;
+}
+
+.buttons-counter .btn-counter-itens {
+    width: 30px;
+    font-weight: 600;
+}

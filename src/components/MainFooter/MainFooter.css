@@ -1,0 +1,249 @@
+.footer-main-container { /* Classe pai */
+    background-image: linear-gradient(to left, #b22222,#ff8383 );
+    height: 15vh;
+    width: 80vw;
+    position: fixed;
+    bottom: 0;
+    display: flex;
+    flex-direction: row;
+}
+
+/*****************************REDES SOCIAIS********************************/
+.social-media-footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 20vw;
+}
+
+.social-details{ /* Lista */
+    list-style-type: none;
+    padding: 10px;
+    margin: 10px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    background-color: #b222222d;
+    border-radius: 10px;
+}
+
+.icon-social {
+    background-color: transparent;
+    width: 50px;
+    height: 50px;
+    color: #000;
+    cursor: pointer;
+}
+
+/******************************MAPA DO SITE******************************/
+.system-map-footer {
+    width: 15vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    margin-left: 100px;
+    margin-top: 7px;
+}
+
+.system-map-footer h3 {
+    color: #fff;
+    text-shadow: .9px .8px 5px #000;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.4rem;
+    font-weight: 600;
+    margin-top: -15px;
+    margin-bottom: 5px;
+}
+
+.system-map-footer a {
+    color: #fff;
+    text-shadow: .9px .8px 5px #000;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.2rem;
+    font-weight: 600;
+    text-decoration: none;
+    font-style: italic;
+    text-align: justify;
+    /*text-shadow: .3px .2px 2px #fff;*/
+}
+
+.system-map-footer a:hover {
+    color: #ffffff;
+    text-shadow: 1px 6px 5px #000;
+    text-decoration: underline;
+}
+
+/**************************FORMULÁRIO DE CONTATO*********************/
+.contact-footer { /* container principal do footer */
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    width: 20vw;
+    margin-left: 550px;
+    margin-top: 50px;
+    height: 40px;
+    position: relative;
+    background-color: #00000034;
+    border-radius: 10px;
+}
+
+ .contact-footer button {
+    color: #fff;
+    text-shadow: .9px .8px 2px #020202b2;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.4rem;
+    font-weight: 600;
+    margin-top: 6px;
+    margin-bottom: 5px;
+    margin-left: 76px;
+    font-style: italic;
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+}
+
+.contact-footer button:hover {
+    color: #fffefecc;
+}
+
+.icon-contact {
+    font-size: 3rem;
+    color: yellow;
+    position: absolute;
+    left: 18px;
+    top: -4px;
+}
+/**************************************************************/
+
+.list-rel-system {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    padding: 7px;
+    margin-top: 1px;
+}
+
+.link-rel-system {
+    padding: 3px;
+    margin-top: -4px;
+    font-size: 1rem;
+}
+
+.field-Rel {
+    border-radius: 10px;
+    border: 2px solid white;
+}
+/* MODAL - EMAIL */
+
+#modal-email-footer {
+    width: 38vw;
+    height: 58vh;
+    align-self: center;
+    justify-self: center;
+    border-radius: 10px;
+}
+
+.modal-name-email {
+    display: flex;
+    flex-direction: row;
+    gap: 7px;
+    margin-top: 10px;
+    
+}
+
+.modal-name-email label {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.modal-name-email label input {
+    box-sizing: border-box;
+    width: 17.5vw;
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid #000;
+    position: relative;
+    text-align: center;
+}
+
+.icon-name-email {
+    position: absolute;
+    left: 17vw;
+    top: 80px;
+    font-size: 1.3rem;
+}
+
+.icon-descricao-email {
+    position: absolute;
+    left: 34.6vw;
+    top: 77px;
+    font-size: 1.8rem;
+}
+
+.modal-subject-messenger-btnSend {
+    display: flex;
+    flex-direction: column;
+}
+
+.modal-subject {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+}
+
+.modal-subject input {
+    box-sizing: border-box;
+    height: 30px;
+    width: 35.4vw;
+    border-radius: 5px;
+    border: 1px solid #000;
+    position: relative;
+    text-align: center;
+}
+
+.modal-messenger {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+}
+
+.modal-messenger textarea {
+    box-sizing: border-box;
+    height: 21.9vh;
+    width: 35.4vw;
+    border-radius: 5px;
+    border: 1px solid #000;
+    position: relative;
+    font-size: 1.1rem;
+}
+
+.btnSendMessenger {
+    height: 30px;
+    width: 35.4vw;
+    margin-top: 10px;
+    border-radius: 7px;
+    border: none;
+    color: #ffffff;
+    font-size: 1rem;
+    font-style: italic;
+    font-weight: 600;
+    text-shadow: .5px .5px 2px #000;
+    background-color: #0d9caf;
+    cursor: pointer;
+}
+
+.btnSendMessenger:hover {
+    background-color: #0d9cafd5;
+}
+
+.icon-btnSendMessenger {
+    font-size: 1.3rem;
+    margin-right: 5px;
+}
+
+
+
